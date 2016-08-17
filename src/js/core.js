@@ -342,13 +342,14 @@
      */
 
     Core.prototype.getButtons = function () {
-        if (this.options.enabled === false) {
-            return;
-        }
-
-        return this.templates['src/js/templates/core-buttons.hbs']({
-            addons: this.options.addons
-        }).trim();
+        // if (this.options.enabled === false) {
+        //     return;
+        // }
+        //
+        // return this.templates['src/js/templates/core-buttons.hbs']({
+        //     addons: this.options.addons
+        // }).trim();
+        return ;
     };
 
     /**
