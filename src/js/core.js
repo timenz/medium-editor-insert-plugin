@@ -433,15 +433,15 @@
      */
 
     Core.prototype.showButtons = function (activeAddon) {
-        var $buttons = this.$el.find('.medium-insert-buttons');
-
-        $buttons.show();
-        $buttons.find('li').show();
-
-        if (activeAddon) {
-            $buttons.find('li').hide();
-            $buttons.find('button[data-addon="' + activeAddon + '"]').parent().show();
-        }
+        // var $buttons = this.$el.find('.medium-insert-buttons');
+        //
+        // $buttons.show();
+        // $buttons.find('li').show();
+        //
+        // if (activeAddon) {
+        //     $buttons.find('li').hide();
+        //     $buttons.find('button[data-addon="' + activeAddon + '"]').parent().show();
+        // }
     };
 
     /**
